@@ -1,12 +1,6 @@
-![1200px-star_wars2 svg](https://user-images.githubusercontent.com/43390621/48627866-d905b500-e99c-11e8-969c-515fd8bdcc41.png)
-
-
 # REST API em Node.js e Express.js - Cadastro e manipulação de planetas Star Wars em API SWAPI
 
-
-
 Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar planetas, listar planetas, buscar por nome e Id, remover planeta. Foi feito em Node usando a arquitetura REST, consome a API Swapi, o qual neste caso consultou-se apenas o número de aparições em filmes de cada planeta existente no universo Star Wars, caso o planeta não exista neste universo será cadastrado com zero aparições
-
 
 ## Tecnologias Utilizadas
 
@@ -29,11 +23,11 @@ Nesta aplicação foram implementadas as seguintes fucionalidades: adicionar pla
 
 ## Guia 
 
-1. É necessário clonar o repositório com o comando `git clone https://github.com/brunoalvaress/b2wdigital-testebackend-bruno.git` 
-2. Entrar no diretório do projeto com `cd b2wdigital-testebackend-bruno (para windows)`
-3. Instalar todas as dependências utilizando `npm install dependencies`
-4. Recomendo instalar o nodemon, utilizando `npm install nodemon`
-5. Após isso rodar a aplicação utilizando `nodemon src/index.js`
+1. É necessário clonar o repositório com o comando `git clone https://github.com/joao-m-fonseca/API-Cloud4-Test.git` 
+2. Instalar todas as dependências utilizando `npm install dependencies`
+3. Recomendo instalar o nodemon, utilizando `npm install nodemon`
+4. Após isso correr a aplicação utilizando `nodemon src/index.js`
+5. Para fazer a implementação da aplicação em containers, é possível utilizar a plataforma Docker e correr o comando docker-compose up -d, a partir da diretoria principal.
 
 ## Arquitetura REST
 
@@ -67,4 +61,5 @@ Foram totalmente realizados no ambiente automatizado do Postman, onde foi criado
 
 ## Créditos
 
-Essa API foi desenvolvida e documentada por Bruno Alvares de Miranda, no dia 15/11/2018.
+Essa API foi desenvolvida e documentada por Bruno Alvares de Miranda, no dia 15/11/2018 e alterada por João Fonseca por forma a acrescentar a possibilidade de implementação em 
+containers no dia 26/01/2021.
